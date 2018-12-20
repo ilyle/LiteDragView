@@ -1,0 +1,4 @@
+include ':app', ':litedragview', ':litedragview'
+
+include ':litedragview'
+project(':litedragview').projectDir = new File('litedragview')
